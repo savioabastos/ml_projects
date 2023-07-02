@@ -36,6 +36,8 @@ the three distinct CSV files, with train, test and validation sets.
 
 # Executing the code to train and test models
 
+You can either use a neural network completely designed by yourself, or you can use transfer learning. In the latter case, you will adopt a "backend model" that performs feature extraction and add the top layers to perform classification based on these features.
+
 ## Using Optuna
 
 Execute model_selection_no_backend.py to find hyperparameters.
