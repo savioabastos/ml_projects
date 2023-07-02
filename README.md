@@ -7,6 +7,8 @@ Python template containing formatter, linter and other automatic verifications. 
 
 When creating a new repository on GitHub, be sure to select in the template field `python_template` from LASSE organization. So, all the files in this template will be moved to your new project.
 
+Use the --no-verify option to skip git commit hooks, e.g. ``git commit -m "commit message" --no-verify``. When the --no-verify option is used, the pre-commit and commit-msg hooks are bypassed.
+
 ## VS Code integration
 
 File `.vscode/settings.json` contains the default workspace configurations to automatically activate the formatter, linter, type check and sort imports in VS Code. Most of them promote file verification when saving the document. *Remember to select the correct python environment into the VS Code to enable it to use the packages installed into the environment*.
