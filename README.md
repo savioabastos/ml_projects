@@ -16,16 +16,22 @@ are at ../../data_ham1000/HAM10000_images_part_1 with respect to your
 scripts.
 
 You should have:
-
 MYROOT_FOLDER/ml_projects/skin_cancer_classification/organize_data.py (and other scripts)
+
 MYROOT_FOLDER/data_ham1000/HAM10000_images_part_1
+
 MYROOT_FOLDER/data_ham1000/HAM10000_metadata.csv
 
 Execute organize_data.py to create:
+
 MYROOT_FOLDER/data_ham1000/binary_HAM10000_metadata.csv
+
 MYROOT_FOLDER/data_ham1000/train.csv
+
 MYROOT_FOLDER/data_ham1000/test.csv
+
 MYROOT_FOLDER/data_ham1000/validation.csv
+
 the three distinct CSV files, with train, test and validation sets.
 
 # Executing the code to train and test models
